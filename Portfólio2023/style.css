@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+html{
+ scroll-behavior: smooth;
+}
+
+/*fonts:
+font-family: 'Roboto Mono', monospace;
+font-family: 'VT323', monospace;
+*/
+
+::selection{
+    color: #fbe6ff;
+    background-color: #060046;
+}
+
+.caixas:focus{
+    outline: 0;
+}
+
+body{
+    background-color: #FDF2FF;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header{display: flex; justify-content: center; flex-wrap: wrap; text-align: center;}
+
+#logo1{
+    padding: 1.5vh;
+    margin: 0vh 80vh;
+    visibility: visible;
+}
+
+#logo2{    
+    padding: 1.5vh;
+    margin: 0vh 80vh;
+    top: 6.5%;
+    visibility: hidden;
+    position: absolute;
+}
+
+#divul{
+    width: 100%;
+    margin-top: 2%;
+    background-color: #9B5EB0;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+header ul>li a{    
+    color: #060046;
+    display: flex;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.180);
+    transition: .4s;
+}
+header ul>li a:hover{
+    text-shadow: 3px 3px 3px transparent;
+    color: #231B80;
+}
+
+header h1{
+    color: #060046;
+    font-family: 'VT323', monospace;
+    font-size: 3.7em;
+    width: 100%;
+    margin: 4vh 0vh;
+}
+
+header p{
+    color: #68008C;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+section{
+    margin-top: 4%;
+    background-color: #EFEEFF;
+    padding: 30px;
+    border-top: 4px solid #231B80;
+    border-bottom: 4px solid #231B80;
+}
+
+section h1{
+    color: #080061;
+    font-family: 'VT323', monospace;
+    font-size: 5em;
+    letter-spacing: 5px;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.151);
+}
+
+section p{
+    color: #68008C;
+    font-family: 'VT323', monospace;
+    font-size: 2em;
+    letter-spacing: 5px;
+    margin-bottom: 5vh;
+}
+
+#projetosGRID{
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%; height: auto;
+}
+
+.projetosIMG{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projetosIMG div{
+    border: 9px solid #9B5EB0;
+    overflow: hidden;
+    width: 90%;
+    height: 310px;
+    border-radius: 0.875em;
+    transition: .5s;
+
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetosIMG div a{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetosIMG img{
+    transform: scale(1.2);
+    filter: brightness(15%);
+    transition: .5s;
+}
+
+.projetosIMG div:hover{
+    border: 7px solid #68008C;
+}
+
+.projetosIMG div:hover img{
+    transform: scale(1.4);
+    filter: brightness(70%);
+}
+
+.projetosIMG h4{
+    color: #9B5EB0;
+    font-family: 'VT323', monospace;
+    font-size: 5.5em;
+    letter-spacing: 5px;
+    position: absolute;
+    transition: .5s;
+}
+
+.projetosIMG div:hover h4{color: #69008c;}
+.projetosIMG div:hover p{color: #69008c;}
+
+.projetosIMG P{    
+    color: #9B5EB0;
+    font-family: 'VT323', monospace;
+    font-size: 2em;
+    letter-spacing: 5px;
+    padding-top: 20vh;
+    position: absolute;
+    transition: .5s;
+}
+
+#SM{
+    width: 100%; height: 710px;
+    padding: 30px;
+}
+
+#SM h1{
+    font-family: 'VT323', monospace;
+    font-size: 5.5em;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.151);
+    letter-spacing: 5px;
+    color: #080061;
+    margin-bottom: 20px;
+}
+
+#SM b{
+    color: #060046;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 3px;
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+#div{
+    display: flex; justify-content: space-evenly; 
+    margin-top: 70px;
+}
+
+#div div{
+    height: auto;
+}
+
+#SM p{
+    font-family: 'VT323', monospace;
+    font-size: 5.5em;
+    letter-spacing: 5px;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.151);
+    color: #080061;
+    line-height: .6;
+}
+
+#SM span{
+    font-family: 'VT323', monospace;
+    font-size: 2em;
+    letter-spacing: 5px;
+    color: #080061;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.151);
+    line-height: 1.5;
+}
+
+#SM s{
+    color: #68008C;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 3px;
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+#CONTATO{
+    width: 100%;
+    margin-top: 8%;
+    background-color: #EFEEFF;
+    padding: 30px;
+    border-top: 4px solid #231B80;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#CONTATO h1{ 
+    font-family: 'VT323', monospace;
+    font-size: 5.5em;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.151);
+    letter-spacing: 5px;
+    color: #080061;
+    margin-bottom: 20px;
+}
+
+#CONTATO form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.caixas{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #68008C;
+    color: #68008C;
+    margin-bottom: 6vh;
+    text-align: left;
+}
+
+.caixas::placeholder{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    color: #68008C;
+    width: 48.7%;
+    text-align: left;
+}
+
+#email{
+    width: 100%; 
+}
+
+#telefone{
+    width: 100%;
+}
+
+#nomes{
+    width: 49%;
+}
+
+#nomes1{
+    width: 49%;
+}
+
+#CONTATO textarea{
+    width: 100%;
+    height: 200px;
+    font-size: 1em;
+}
+
+.button{
+    width: 32%;
+    height: 60px;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Roboto Mono', monospace;
+    border: 5px solid #080061;
+    color: #080061;
+    background-color: #9B5EB0;
+    margin-right: 80%;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #69008c;
+    border: 5px solid #5d53c9;
+    color: #5d53c9;
+}
+
+footer{
+    background-color: #080061;
+    color: #68008C;
+    width: 100%; height: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1{
+    font-family: 'VT323', monospace;
+    font-size: 5em;
+    margin-bottom: 1%;
+}
+
+footer div{
+    margin-top: 2%;
+    width: 80%;
+    border-top: 2px solid #9B5EB0;
+}
+
+footer p{
+    font-family: 'Roboto Mono', monospace;
+    padding: 15px;
+}
+
+footer p>span{
+    color: #9B5EB0;
+}
+
+footer ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+
+footer svg{
+    transition: .3s;
+}
+
+footer svg:hover{
+    fill: #69008c;
+}

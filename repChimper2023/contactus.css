@@ -1,0 +1,400 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+font-family: 'Quicksand', sans-serif;
+}
+
+body{
+background-attachment: fixed;
+background-image: url(hero_1\ 1.png);
+background-size: 110%;
+background-position-x: center;
+background-repeat: no-repeat;        
+}
+    
+header {
+height: 44.19px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+border-bottom: solid 1px rgb(233, 233, 233);
+outline: none;
+background-color: white;
+}
+    
+#telEmailTOP {
+padding-top: 14px;
+padding-bottom: 10px;
+width: 31%;
+}
+
+#span2{padding-left: 2vh;}
+
+#telEmailTOP strong{color: #4d4d4d;}
+
+#telEmailTOP a{
+color: #0d0cb5;
+font-weight: 500;
+}
+
+#telEmailTOP a:hover{color: #4d4d4d;}
+    
+#icons {
+padding-top: 11.3px;
+padding-bottom: 11px;
+padding-left: 32px;}
+    
+#icons ul{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding: 0;
+}
+    
+#icons ul li a svg{
+margin-left: 10px;
+margin-right: 10px;
+fill: #0d0cb5;
+transition: .3s;
+}
+ 
+#icons ul li a svg:hover{fill: rgb(1, 1, 107);}
+
+section {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+position: relative;
+padding-left: .5vh;
+height: 96px;
+background-color: white;
+}
+    
+section p{
+font-size: 32px;
+padding: 2.9vh 0vh 2.9vh 0vh;
+font-weight: 500;
+}
+
+section ul{
+display: flex;
+flex-wrap: wrap;
+padding-left: 4.5%;
+}
+
+section li{
+display: flex;
+flex-wrap: wrap;
+padding: 4vh 0vh;
+margin: 0vh 4.5vh 0vh 0vh;
+border: none;
+}
+
+section a{
+color: black;
+font-weight: 400;}
+    
+section a:hover{color: #0d0cb5;}
+
+section svg{
+position: absolute;
+top: 4.3vh;
+left: 8vh;
+}
+
+#Services:hover svg{
+fill: #0d0cb5;
+}
+
+#Services{position: relative;}
+
+#dropServices{
+position: absolute;
+padding: 0;
+background-color: white;
+color: black;
+width: 202px; height: 184px;
+top: 128px;
+text-align: left;
+left: -2vh;
+border-top: 2px solid #0e0e8b;
+opacity: 0;
+z-index: -99;
+visibility: hidden;
+transition: .5s;
+box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
+}
+
+#dropServices li>a{color: black;}
+
+#dropServices li>a:hover{color: black;}
+
+#dropServices>li{
+width: 100%;
+padding: 9px 20px;
+font-size: 16px;
+margin: 0;
+line-height: 1.7;
+}
+
+#dropServices>li:hover{background-color: rgba(0, 0, 0, .2);}
+
+#Services:hover #dropServices{
+opacity: 1;
+visibility: visible;
+z-index: 99;
+top: 88px;
+}
+
+.contact a{
+color: #0d0cb5;
+}
+
+article{
+display: flex;
+justify-content: center;
+height: 400px;
+background-color: transparent;
+align-items: center;
+text-align: center;
+}
+
+article h1{
+font-weight: 400;
+color: white;
+font-size: 48px;
+margin-bottom: 8px;
+}
+
+article p{
+color: #FFFFFF80;
+font-size: 19.2px;
+margin-bottom: 72px;
+}
+
+nav{
+height: 800px;
+background-color: #F8F9FA;
+padding: 80px 348px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+#form{
+height: 665px; width: 570px;
+background-color: white;
+padding: 48px;
+color: black;
+}
+
+#form h1{
+font-weight: 500;
+font-size: 24px;
+margin-bottom: 48px;
+width: 100%;
+}
+
+#inputs{display: flex;}
+
+#inputs div{
+padding-right: 15px;
+position: relative;
+line-height: 1.7;
+}
+
+#inputs input{
+width: 254.5px; height: 43px;
+border-radius: 30px;
+border: 1px solid lightgray;
+margin-top: 8px;
+}
+
+.E_S{
+margin-top: 16px;
+line-height: 1.7;
+}
+
+.E_S input{
+width: 100%; height: 43px;
+border-radius: 30px;
+border: 1px solid lightgray;
+margin-top: 8px;
+}
+
+.message{
+margin-top: 16px;
+line-height: 1.7;
+}
+
+.message textarea{
+padding: 10px 15px;
+width: 100%; height: 182px;
+border-radius: 30px;
+border: 1px solid lightgray;
+margin-top: 8px;
+}
+
+#info div{
+width: 400px; height: 235px;
+padding: 24px;
+background-color: white;
+margin-bottom: 16px;
+}
+#buttonSend input{
+width: 163.7px; height: 50px;
+background-color: #0d0cb5;
+border: none;
+font-size: 12px;
+color: white;
+border-radius: 30px;
+margin-top: 16px;
+letter-spacing: .1em;
+}
+
+#info p{
+font-size: 16px;
+color: #4d4d4d;
+font-weight: 400;
+line-height: 1.7;
+margin-bottom: 25px;
+}
+
+#info h3{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: .05em;
+color: #4d4d4d;
+}
+
+#info p a{
+font-size: 16px;
+color: #0d0cb5;
+font-weight: 400;
+line-height: 1.7;
+margin-bottom: 24px;
+}
+
+#info h2{
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 16px;
+}
+
+#info h4{
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.7;
+color: #4d4d4d;
+margin-bottom: 16px;
+}
+
+#buttonLearn{width: 163.7px; height: 50px;}
+
+#buttonLearn input{
+width: 150px; height: 50px;
+background-color: #0d0cb5;
+border: none;
+font-size: 12px;
+color: white;
+border-radius: 30px;
+}
+
+footer{
+height: 382px; width: 100%;
+padding: 128px 0px;
+display: grid;
+grid-template-columns: 280px 250px 250px 250px 16.7% 375px;
+grid-template-rows:    198px 198px 198px 198px 198px 198px;
+background-color: #333333;
+}
+
+footer h2{
+margin-bottom: 24px;
+color: white;
+font-weight: 500;
+font-size: 16px;
+}
+
+footer p{
+color: #737373;
+line-height: 1.7;
+font-size: 16px;
+}
+
+.footerF{margin-left: 71.2px;}
+
+.footerF h2{
+margin-bottom: 20px;
+color: white;
+font-weight: 500;
+font-size: 16px;
+}
+
+.footerF p>a{
+color: #737373;
+font-weight: 600;
+line-height: 2.3;
+font-size: 16px;
+transition: .3s;
+}
+
+.footerF p>a:hover{color: white;}
+
+#footerFU{margin-left: 35px;}
+
+#iconsFU {
+padding-top: 0px;
+padding-bottom: 11px;
+}
+
+#iconsFU ul{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding: 0;
+}
+
+#iconsFU ul li a svg{
+margin-right: 32px;
+fill: #737373;
+transition: .3s;
+}
+
+#iconsFU ul li a svg:hover{fill: white;}
+
+#footerSN input{
+background-color: transparent;
+font-size: 1rem;
+border: solid #4d4d4d;
+border-radius: 30px;
+height: 40px; width: 193px;
+padding: 0px 12px;
+}
+
+#footerSN button{
+background-color: #0d0cb5;
+height: 46px; width: 63px;
+border: none;
+position: relative;
+z-index: 2;
+font-size: medium;
+right: 6.9vh;
+color: white;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+transition: .3S;
+}
+
+#footerSN button:hover{background-color: #0e0e8b;}
+
+#footerC{
+grid-column: 2/7;
+border-top: 1px solid rgba(255, 255, 255, 0.1);
+margin-top: 96px;
+text-align: center;
+padding-top: 48px;
+}

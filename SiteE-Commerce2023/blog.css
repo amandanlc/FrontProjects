@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #A03263 ;
+    font-family: 'Barlow', sans-serif;
+    background-color: transparent;
+}
+
+/*NÃO ESQUECER DE ADICIONAR TRANSIÇÃO NAS COISAS*/
+/*HEADER E FOOTER TRANSITIONS:*/
+#gridFOOTER ul li:hover a{
+    text-decoration: underline;
+}
+
+
+.icons svg{
+    fill: #5a213b;
+    transition: .3s;
+}
+
+.icons svg:hover{
+    fill: #A03263;
+}
+
+header ul li a{
+    color: #A03263;
+    transition: .3s;
+}
+
+header ul li a:hover{
+    color: #a24fda;
+}
+
+::selection{
+    color: #E0b0ff;
+    background-color: #a24fda;
+}
+
+body{
+    background-color: #A03263;
+}
+
+#frete{
+    height: 5vh; width: 100%;
+    background-color: #A03263;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#frete p{
+    color: #E299B4;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+header {
+    background-color: #E299B4;
+    height: 10vh;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.137);
+    position: relative;
+}
+
+header ul{
+    display: inline-block;
+}
+
+#skincare{position: relative;}
+    
+#skincare:hover svg{
+fill: #a24fda;
+}
+
+#skinDrop{
+position: absolute;
+padding: 0;
+background-color: white;
+color: black;
+width: 202px; height: 290px;
+top: 3vh;
+text-align: left;
+left: 2vh;
+border: 4px solid #a24fda;
+opacity: 0; /*mudar esse e os dois de baixo*/
+z-index: -99;
+visibility: hidden;
+transition: .5s;
+box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
+}
+
+#skinDrop li>a{color: #c64ca2;
+transition: .3s;}
+    
+#skinDrop li>a:hover{color: #5a213b;}
+    
+#skinDrop>li{
+position: relative;
+top: .2vh;
+width: 100%;
+padding: 9px 15px;
+font-size: 16px;
+letter-spacing: .5vh;
+margin: 0;
+line-height: 1.2;
+transition: .3s;
+}
+
+#skinDrop>li:hover{background-color: #a0326325;}
+    
+#skincare:hover #skinDrop{
+opacity: 1;
+visibility: visible;
+z-index: 99;
+top: 6.5vh;
+}
+
+#rosto{position: relative;}
+    
+#rosto:hover svg{
+fill: #a24fda;
+}
+
+#rostoDrop{
+position: absolute;
+padding: 0;
+background-color: white;
+color: black;
+width: 202px; height: 400px;
+top: 3vh;
+text-align: left;
+left: 2vh;
+border: 4px solid #a24fda;
+opacity: 0; /*mudar esse e os dois de baixo*/
+z-index: -99;
+visibility: hidden;
+transition: .5s;
+box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
+}
+
+#rostoDrop li>a{color: #c64ca2;
+transition: .3s;}
+    
+#rostoDrop li>a:hover{color: #5a213b;}
+    
+#rostoDrop>li{
+position: relative;
+top: .2vh;
+width: 100%;
+padding: 9px 15px;
+font-size: 16px;
+letter-spacing: .5vh;
+margin: 0;
+line-height: 1.3;
+transition: .3s;
+}
+
+#rostoDrop>li:hover{background-color: #a0326325;}
+    
+#rosto:hover #rostoDrop{
+opacity: 1;
+visibility: visible;
+z-index: 99;
+top: 6.5vh;
+}
+
+#corpo{position: relative;}
+    
+#corpo:hover svg{
+fill: #a24fda;
+}
+
+#corpoDrop{
+position: absolute;
+padding: 0;
+background-color: white;
+color: black;
+width: 202px; height: 160px;
+top: 3vh;
+text-align: left;
+left: 2vh;
+border: 4px solid #a24fda;
+opacity: 0; /*mudar esse e os dois de baixo*/
+z-index: -99;
+visibility: hidden;
+transition: .5s;
+box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
+}
+
+#corpoDrop li>a{color: #c64ca2;
+transition: .3s;}
+    
+#corpoDorp li>a:hover{color: #5a213b;}
+    
+#corpoDrop>li{
+position: relative;
+top: .2vh;
+width: 100%;
+padding: 9px 15px;
+font-size: 18px;
+letter-spacing: .5vh;
+margin: 0;
+line-height: 1.2;
+transition: .3s;
+}
+
+#corpoDrop>li:hover{background-color: #a0326325;}
+    
+#corpo:hover #corpoDrop{
+opacity: 1;
+visibility: visible;
+z-index: 99;
+top: 6.5vh;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 2.2vh;
+    font-size: 1.4em;
+    font-weight: 800;
+    position: relative;
+    bottom: 2.5vh;
+}
+
+header ul li a{
+    color: #A03263;
+}
+
+header ul svg{
+    position: relative;
+    left: 1vh;
+}
+
+header img{
+    width: 17%;
+    padding-top: .6vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.icons{
+    padding: 1.5vh;
+    position: relative;
+    bottom: 1.8vh;
+}
+
+header div{
+    background-color: #E299B4;
+    height: 1vh;
+    width: 16%;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    position: relative;
+    top: 9.9vh;
+    left: 37.2%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.137);
+}
+
+
+
+
+
+#poster div{
+    background-color: #A03263;
+    position: absolute;
+    height: 215px; width: 37%;
+    top: 460px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+#poster h1{
+    font-size: 8.2em;
+    font-weight: 800;
+    letter-spacing: 10px;
+    line-height: 1;
+    color: #E299B4;
+}
+
+#poster h2{
+    font-size: 2.9em;
+    letter-spacing: 8px;
+    color: #E299B4;
+}
+
+#poster span{
+    color: #db9bf7;
+}
+
+section{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 5vh;
+}
+
+#N{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 6vh;
+}
+
+#N div{
+    width: 92.5%; height: 90px;
+    position: absolute;
+    top: 880px;
+    font-size: 5.4em;
+    padding-bottom: 10%;
+    font-weight: 800;
+    letter-spacing: 25px;
+    background-color: #a03263b7;
+    color: #E299B4;
+}
+
+#N img{
+    box-shadow: 9px 10px 10px rgba(0, 0, 0, 0.123);
+}
+
+#P{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15vh;
+}
+
+#P div{
+    width: 92.5%; height: 90px;
+    position: absolute;
+    top: 1370px;
+    font-size: 5.4em;
+    padding-bottom: 10%;
+    font-weight: 800;
+    letter-spacing: 25px;
+    background-color: #a03263b7;
+    color: #E299B4;
+}
+
+#P img{
+    box-shadow: 9px 10px 10px rgba(0, 0, 0, 0.123);
+}
+
+section h1{
+    font-size: 6em;
+    letter-spacing: 35px;
+    font-weight: 800;
+    color: #E299B4;
+}
+
+section span{
+    color: #db9bf7;
+}
+
+section h4{
+    font-size: 1.7em;
+    letter-spacing: 9px;
+}
+
+#linha{
+    height: 12px;
+    width: 82%;
+    border-radius: 30px;
+    position: relative;
+    margin-bottom: 6vh;
+    left: 9vh;
+    background-color: #db9bf7;
+}
+
+section h4{
+    color: #E299B4;
+    font-weight: 800;
+    line-height: 1.5;
+    margin-bottom: 10vh;
+}
+
+
+
+
+footer{
+    height: 80vh; width: 100%;
+    background-color: #A03263;
+}
+
+.logoRodape{
+    width: 100%;
+    padding: 3vh 50vh;
+}
+
+#gridFOOTER{
+    height: 45vh;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    border-bottom: 4px solid #5a213b2c;
+    color: #5a213b;
+}
+
+#gridFOOTER div{
+    padding-left: 8vh;
+    padding-top: 4vh;
+}
+
+#gridFOOTER h1{
+    font-size: 1.7em;
+    font-weight: 900;
+    line-height: 4vh;
+    letter-spacing: .5vh;
+    margin-bottom: 1.5vh;
+}
+
+#gridFOOTER h2{
+    font-size: 1.7em;
+    font-weight: 900;
+    line-height: 4vh;
+    letter-spacing: .5vh;
+}
+
+#gridFOOTER b{
+    font-weight: 900;
+    letter-spacing: .2vh;
+    position: relative;
+    right: .8vh;
+}
+
+#gridFOOTER ul li a{
+    color: #5a213b;
+    letter-spacing: .5vh;
+    font-size: 1.3em;
+    font-weight: 700;
+    line-height: 4vh;
+}
+
+#gridFOOTER form{
+    position: relative;
+    right: 2vh;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 2vh;
+    line-height: 5vh;
+}
+
+#gridFOOTER label{
+    font-size: 1.4em;
+    letter-spacing: 1vh;
+    font-weight: bolder;
+}
+
+#gridFOOTER input{
+    width: 95%;
+    height: 5vh;
+    border: none;
+    background-color: white;
+}
+
+#gridFOOTER button{
+    width: 95%;
+    height: 3vh;
+    border: none;
+    background-color: #993d7c;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;    
+    color: #5a213b;
+    font-weight: 800;
+}
+
+#gridFOOTER input::placeholder{
+    color: #e3a8ff6b;
+    padding: 1vh;
+    letter-spacing: .2vh;
+    font-size: large;
+}
+
+footer p{
+    padding-top: 3.5vh;
+    font-size: 2em;
+    letter-spacing: .5vh;
+    text-align: center;
+    font-weight: 800;
+    color: #5a213b;
+}
+
+.pagamento{
+    width: 100%;
+    padding: 0vh 37vh;
+}
+
+@media only screen and (min-width: 1860px) {
+    header ul li{
+        padding: 4.7vh;
+        font-size: 2.3em;
+        font-weight: 800;
+        position: relative;
+        bottom: 2.5vh;
+    }
+
+    #skinDrop{
+        width: 250px;
+        height: 330px;
+    }
+
+    #rostoDrop{
+        width: 280px;
+        height: 530px;
+    }
+
+    #corpoDrop{
+        width: 240px;
+        height: 200px;
+    }
+
+    #skincare:hover #skinDrop{
+    top: 10.5vh;
+    }
+
+    #rosto:hover #rostoDrop{
+    top: 10.5vh;
+    }
+
+    #corpo:hover #corpoDrop{
+    top: 10.5vh;
+    }
+    
+    header img{
+        width: 13.5%;
+        position: relative;
+    }
+    
+    .icons{
+        padding: 2.5vh;
+    }
+
+    footer{
+        height: 85vh;
+    }
+
+    .logoRodape{
+        width: 70%;
+        position: relative;
+        left: 15%;
+    }
+
+    #poster div{
+        padding-top: 0px;
+        top: 83vh;
+        height: 340px;
+
+    }
+
+    #poster h1{
+        font-size: 15em;
+    }
+
+    #poster h2{
+        font-size: 4em;
+        letter-spacing: 20px;
+    }
+
+    #N div{
+        width: 94.8%; height: 90px;
+        top: 1520px;
+        font-size: 9.3em;
+    }
+
+    #P div{
+        width: 94.8%; height: 90px;
+        top: 2430px;
+        font-size: 9.3em;
+    }
+
+    section h1{
+        font-size: 13em;
+    }
+    
+    section h4{
+        font-size: 3.2em;
+    }
+    
+    #linha{
+        left: 14vh;
+    }
+    
+}

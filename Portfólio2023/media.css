@@ -1,0 +1,224 @@
+/*MEDIA*/
+@media only screen and (max-width: 550px)
+{
+    body{
+        font-size: 5px;
+    }
+
+    body h1{
+        font-size: 32px;
+    }
+
+    .slider.round{
+        margin-left: 30px;
+        margin-top: 1px;
+    }
+
+    #divBotaoModoEscuro{
+        height: 20px;
+    }
+
+    #divBotaoModoEscuro p{
+        font-size: 2.2em;
+        position: relative;
+        left: 9%;
+    }
+
+    .slider{
+        height: 17px;
+        width: 30px;
+    }
+
+    .slider.round::before{
+        width: 13px;
+        height: 13px;
+        bottom: 2px;
+        left: 2px;
+    }
+
+    input:checked + .slider.round::before {
+        transform: translateX(13px);
+      }
+
+      #logo2{    
+        padding: 1.5vh;
+        margin: 0vh 80vh;
+        top: 2.5%;
+        visibility: hidden;
+        position: absolute;
+    }
+
+    #divul li a{
+        font-size: 13px;
+    }
+
+    header p{
+        font-size: 8px;
+        letter-spacing: 0;
+        font-weight: 700;
+    }
+
+    header h1{
+        font-size: 4.5em;
+    }
+
+    #MP{
+        height: auto;
+    }
+
+    #MP p{
+        font-size: 15px;
+    }
+    
+    #SM h1{
+        font-size: 8em;
+        margin: 10px;
+    }
+
+    #SM b{
+        font-size: 1.58em;
+        letter-spacing: 0;
+    }
+
+    #div p{
+        font-size: 8em;
+    }
+
+    #div span{
+        font-size: 3.3em;
+    }
+
+    #div s{
+        font-size: 2em;
+        letter-spacing: 0;
+    }
+
+    #F {
+        padding: 15px;
+    }
+
+    #F ul li{
+       padding: 0;
+       margin: 0;
+    }
+
+    #SM{
+        height: auto;
+        padding: 15px;
+    }
+
+    #projetosGRID{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        width: 100%; height: auto;
+    }
+
+    .projetosIMG{
+        padding: 3px;
+    }
+
+    .projetosIMG div{ 
+        border: 3px solid #9B5EB0;
+        height: 110px; width: 100%;
+
+    }
+
+    .projetosIMG h4{
+        font-size: 6em;
+        padding: 0px;
+    }
+
+    .projetosIMG P{
+        padding-top: 10vh;
+    }
+
+    #MP{
+        padding: 15px;
+        height: auto;
+    }
+
+    #MP>p{
+        margin-bottom: 2vh;
+    }
+
+    header h1{
+        margin: 2vh 0vh;
+    }
+
+    header p{
+        padding: 0 8px;
+    }
+
+    header img{
+        width: 60%;
+    }
+
+    #div{
+        margin-top: 20px;
+    }
+
+    #div div{
+        margin-bottom: 20px;
+    }
+
+    #CONTATO{
+        padding: 15px;
+        height: 340px;
+    }
+
+    #CONTATO h1{
+        font-size: 35px;
+    }
+
+    #CONTATO input{
+        font-size: 8px;
+        padding: 1px;
+    }
+
+    .caixas{
+        margin-bottom: 3vh;
+    }
+
+    #CONTATO textarea{
+        font-size: 8px;
+        height: 100px;
+        margin: 0;
+        padding: 1px;
+    }
+
+    #CONTATO form{
+        height: 220px;
+    }
+
+    .button{
+        width: 32%;
+        margin-top: 1vh;
+        height: 22px;
+        border: 2px solid #080061;
+        margin-right: 80%;
+    }
+
+
+    .dark-mode .projetosIMG>div{
+        border: 1px solid rgb(80, 0, 107);
+    }
+
+    footer h1{
+        font-size: 4em;
+    }
+
+    footer svg{
+        height: 3.8em;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .projetosIMG div{
+        height: auto;
+    }
+
+    .projetosIMG{
+        padding: 6px;
+    }
+}

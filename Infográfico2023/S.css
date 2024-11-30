@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+body{
+    background-image: url(fundoS.jpg);
+    background-repeat: no-repeat;
+    background-color: #e1ffbb;
+}
+
+section{
+    height: 1000px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    padding-left: 30%;
+    padding-top: 7%;
+}
+
+#passo1{
+    height: 280px;
+    width: 350px;
+    background-color: #92DA70;
+    text-align: center;
+    padding: 2%;
+}
+
+#passo2{
+    height: 300px;
+    width: 380px;
+    background-color: #6DBF46;
+    border-radius: 1000px 0px 0px 0px;
+    text-align: center;
+}
+
+#passo2 img{
+    position: relative;
+    top: 18%;
+}
+
+#passo3{
+    height: 270px;
+    width: 420px;
+    background-color: #52A92A;
+    border-radius: 0px 0px 0px 1000px;
+    position: relative;
+    top: 30%;
+    right: 173.7%;
+    text-align: center;
+}
+
+#passo3 img{
+    position: relative;
+    top: 25%;
+    right: 15%;
+}
+
+#passo4{
+    height: 250px;
+    width: 400px;
+    background-color: #419818;
+    position: relative;
+    top: 40.6%;
+    right: 182.5%;
+    border-radius: 0px 1000px 0px 0px;
+    text-align: center;
+}
+
+#passo4 img{
+    position: relative;
+    top: 11%;
+}
+
+#passo5{
+    height: 300px;
+    width: 350px;
+    background-color: #2A8400;
+    position: relative;
+    top: 65.5%;
+    right: 308.5%;
+    border-radius: 0px 0px 1000px 0px;
+    text-align: center;
+}
+
+#passo5 img{
+    position: relative;
+    top: 30%;
+    left: 5%;
+}
+
+#passo6{
+    height: 270px;
+    width: 400px;
+    background-color: #245E09;
+    text-align: center;
+    position: relative;
+    top: 68.5%;
+    right: 457%;
+}
+
+#passo6 img{
+    position: relative;
+    top: 35%;
+}
+
+#branco{
+    height: 200px;
+    width: 700px;
+    background-color: #e1ffbb;
+    border-radius: 1000px 0px 0px 1000px;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+#branco2{
+    height: 200px;
+    width: 600px;
+    background-color: #e1ffbb;
+    border-radius: 0px 1000px 1000px 0px;
+    position: absolute;
+    top: 72%;
+    left: 32%;
+}
+
+#risco1{
+    height: 100px; width: 4%;
+    background-color: #245E09;
+    position: absolute;
+    top: 1.5%;
+    left: 50%;
+}
+
+#risco2{
+    height: 100px; width: 4%;
+    background-color: #245E09;
+    position: absolute;
+    top: 114%;
+    left: 50%;
+}

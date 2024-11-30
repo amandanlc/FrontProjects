@@ -1,0 +1,153 @@
+/* MODO ESCURO */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fbe6ff;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #68008C;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #68008C;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  #divBotaoModoEscuro {
+      width: 100%;
+      padding-top: 1%;
+      padding-right: 2%;
+      display: flex;
+      justify-content: flex-end;
+  }
+  #divBotaoModoEscuro p{
+    color: #060046;
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+
+
+
+
+  .dark-mode {
+    background-color: #060046;
+}   
+
+.dark-mode #logo2{
+    visibility: visible;
+}
+
+.dark-mode #logo1{
+    visibility: hidden;
+}
+
+.dark-mode header p{
+    color: #9B5EB0;
+}
+
+.dark-mode header h1{
+    color: rgb(201, 133, 224);
+}
+
+.dark-mode #divBotaoModoEscuro p{
+    color: #69008c;
+}
+
+.dark-mode #MP{
+    background-color: #0b0552;
+}
+
+.dark-mode #MP h1{
+    color: rgb(201, 133, 224);
+}
+
+
+.dark-mode #SM h1{
+    color: rgb(201, 133, 224);
+}
+
+.dark-mode #SM b{
+    color: #9B5EB0;
+}
+
+.dark-mode #SM p{
+    color: rgb(201, 133, 224);
+}
+
+.dark-mode #SM s{
+    color: #9B5EB0;
+}
+
+.dark-mode #SM span{
+    color: rgb(201, 133, 224);
+}
+
+.dark-mode #CONTATO{
+    background-color: #0b0552;
+    border-bottom: 4px solid #231B80;
+    color: #9B5EB0;
+}
+
+.dark-mode #CONTATO h1{
+    color: rgb(201, 133, 224);
+}
+
+.dark-mode .caixas{
+    border-color: rgb(201, 133, 224)
+}
+
+.dark-mode .caixas::placeholder{
+    color: #9B5EB0;
+}
+
+
+.dark-mode footer{
+    color: rgb(201, 133, 224);
+    background-color: #060046;
+}

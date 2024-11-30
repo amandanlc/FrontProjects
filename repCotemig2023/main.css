@@ -1,0 +1,545 @@
+
+*{margin: 0;
+padding: 0;
+list-style: none;
+    outline: none;
+    border: none;
+    box-sizing: border-box;}
+
+div {display: block;}
+
+#topo {width: 100%;
+height: 4.5vh;
+background-color: black;}
+
+#topo span {color: white;
+margin-left: 60%;
+line-height: 4.9vh;}
+
+a { text-decoration: none;
+color: white;}
+
+
+body {margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#divcotemig {position: sticky;
+    top: 0;
+    height: 6.5vh; 
+    background: rgba(0,0,0,.75);
+    vertical-align: middle;
+    z-index: 111;
+}
+
+#cotemig {line-height: 6.5vh;
+margin-right: 10%;
+margin-left: 21%;
+display: inline-block;}
+
+#divcotemig li { position: relative;
+top: 9px;
+width: 7%;
+height: 3vh;
+line-height: 3vh;
+text-align: center; 
+display: inline-block;
+margin-left: -1.5%;
+color: white;
+font-weight: 600;
+font-size: small;}
+
+#divcotemig li:hover { color: #40AA0B;}
+
+#home:hover {color: #40AA0B;}
+
+#nossosCursos:hover {color: #40AA0B;}
+
+#unidades:hover {color: #40AA0B;}
+
+#blog:hover {color: #40AA0B;}
+
+#sobreNos:hover {color: #40AA0B;}
+
+#mais:hover {color: #40AA0B;}
+
+#areaRestrita:hover {color: #40AA0B;}
+
+.iconSeta {width: 7%;}
+
+#iconCadeado {position: relative;
+bottom: 1.6px;
+width: 8%;
+margin-right: 8%;}
+
+#divbanner{position: relative;
+    z-index: -1;
+    top: -6.5vh;
+overflow: hidden;}
+
+#TXT1 {position: absolute;
+left: 37vh;
+top: 16.7vh;
+color: white;
+font-family: 'Lato', sans-serif;
+font-size: 2.4em;
+font-weight: bold;}
+
+#TXT2 {position: absolute;
+    left: 37vh;
+    top: 23vh;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.13em;}
+
+#botaoS {position: absolute;
+bottom: 22vh;
+top: 290px;
+left: 37vh;
+width: 336px;
+height: 45px;
+color: white;
+background-color: #40AA0B;
+border-radius: 8px;
+border: none;
+text-align: center;
+line-height: 45px;
+font-family: 'Lato', sans-serif;
+font-size: 0.9em;
+font-weight: 600;
+}
+
+ul img { margin-top: 0.5%;
+vertical-align: middle;}
+
+#TXT3 {text-align: center;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;}
+
+#TXT4 {color: rgb(56, 56, 56);
+    font-family: 'Lato', sans-serif;
+    font-size: 1.12em;
+    text-align: center;
+}
+
+#fundoCotegas{width: 100%;
+    height: 400px;
+}
+
+#itensEscolha { position: absolute;
+    top: 76vh;
+    left: 67vh;
+    overflow: hidden;
+    width: 284px;
+    vertical-align: top;
+    border-radius: 0.75em;
+    box-shadow: 0px 2px 8px rgba(0,0,0,.1);
+    white-space: normal;}
+
+#TituloEnsMed {
+    position: absolute;
+    left: 1vh;
+    color: white;
+    margin-top: 11vh;
+}
+
+.iconsIMG {
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 0.5em;
+    margin-left: 1vh;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+.g {position: absolute;
+    top: 20vh;
+    left: 5.6vh;
+    text-align: left;
+    color: black;}
+
+#itensEscolha ul{ color: black;
+    list-style: none;
+    font-size: .92em;
+    font-weight: 500;
+}
+#itensEscolha2 { position: absolute;
+    top: 76vh;
+    left: 98.5vh;
+    overflow: hidden;
+    width: 284px;
+    vertical-align: top;
+    border-radius: 0.75em;
+    box-shadow: 0px 2px 8px rgba(0,0,0,.1);
+    white-space: normal;}
+
+    #itensEscolha2 ul {list-style: none;
+        font-size: .92em;
+        font-weight: 500;
+    color: black;}
+    
+        #itensEscolha2 li:hover {color: #40AA0B;}
+        #itensEscolha li:hover {color: #40AA0B;}
+
+.g:hover{color: #40AA0B;}
+
+#fundoUnidades {width: 100%;
+    height: 400px;
+    margin-top: 5%;}
+
+#TXT5 {font-size: 2.5em;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    text-align: center;}
+
+#TXT6 {position: relative;
+    top: 6.3vh;
+    color: #424242;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.12em;
+    text-align: center;
+    margin-bottom: 18vh;}
+#TXT6 span{font-weight: bold;}
+
+#escolhaUnidades1 {position: absolute;
+    left: 36vh;
+    width: 382.09px;
+    height: 328px;
+    overflow: hidden;
+    vertical-align: top;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,.1);
+    margin-bottom: 26px;
+    white-space: normal;
+    transition: .5s;}
+    #escolhaUnidades1:hover{transform: scaleY(1.028) translateY(-1vh);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.26);}
+
+.txtcotebas {position: relative;
+    top: 2.2vh;
+    left: 2vh;
+    color: #424242;
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    text-align: left;}
+.endereco {position: relative;
+    top: 3.6vh;
+    left: 5.5vh;
+    color: #424242;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: left;}
+.imgendereco {position: absolute;
+    top: 27vh;
+    left: 1.8vh;
+    }
+.enderecoo {position: relative;
+    top: 4.8vh;
+    left: 5.5vh;
+    color: #424242;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: left;}
+
+#escolhaUnidades2 {position: absolute;
+    left: 77.5vh;
+    width: 382.09px;
+    height: 328px;
+    overflow: hidden;
+    vertical-align: top;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,.1);
+    white-space: normal;
+    margin-bottom: 26px;
+    transition: .5s;}
+    #escolhaUnidades2:hover{transform: scaleY(1.028) translateY(-1vh);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.26);}
+
+#escolhaUnidades3 { position: relative;
+    left: 119vh;
+    width: 382.02px;
+    height: 328px;
+    overflow: hidden;
+    vertical-align: top;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,.1);
+    margin-bottom: 26px;
+    white-space: normal;
+    transition: .5s;}
+    #escolhaUnidades3:hover{transform: scaleY(1.028) translateY(-1vh);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.26);}
+
+#fundoAtendimento {height: 118px;
+padding-bottom: 50px;}
+
+#txtatendimento {text-align: center;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin-top: 15px;}
+#imgAtendimento {position: absolute;
+    left: 81vh;
+    margin-top: 1vh;
+    width: 48px;}
+#telcentral {position: absolute;
+    left: 88.4vh;
+    font-weight: bolder;
+    color: #40AA0B;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    padding-top: 18px;
+    padding-bottom: 50px;}
+
+#fundoNovidades{width: 100%;
+    height: 546px;
+    padding-top: 16px;
+    padding-bottom: 48px;}
+
+#TXT7 {font-size: 2.5em;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 45px;
+    margin-bottom: 20px;}
+#arrownov{position: absolute;
+    top: .6vh;
+    left: 7.5vh;}
+.txtnov {color: black;
+    position: relative;
+    top: -37vh;
+    left: 145vh;
+    font-weight: bold;}
+#notNov1{overflow: hidden;
+    display: inline-block;
+    position: relative;
+    top: 25px;
+    margin-left: 288px;
+    width:278px;
+    height: 324px;
+    margin-right: 1vh;
+    border-radius: 0.875em;}
+    .notnovImgs{position: relative;
+        top: 1.5vh;
+        transform: scale(1.1);
+        transition: .5s;}
+    .notnovImgs:hover{transform: scale(1.2);}
+.txt1234{position: absolute;
+    display: block;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+    bottom: 0;
+    z-index: 100;
+    padding: 20px}
+#notNov2{overflow: hidden;
+    display: inline-block;
+    position: relative;
+    top: 25px;
+    margin-left: 0;
+    width:278px;
+    height: 324px;
+    margin-right: 1vh;
+    border-radius: 0.875em;}
+    #notNov3{overflow: hidden;
+        display: inline-block;
+        position: relative;
+        top: 25px;
+        margin-left: 0;
+        width:278px;
+        height: 324px;
+        margin-right: 1vh;
+        border-radius: 0.875em;}
+        #notNov4{overflow: hidden;
+            display: inline-block;
+            position: relative;
+            top: 25px;
+            margin-left: 0;
+            width:278px;
+    height: 324px;
+    margin-right: 1vh;
+            border-radius: 0.875em;}
+#itensEscolha a{ color: black;}
+#itensEscolha2 a{ color: black;}
+
+#rodape {position: absolute;
+    top: 2425px;
+    padding-top: 2.5em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    width: 100%;
+    height: 487px;
+    background-color: #151515;}
+    #txtsRodape {height: 100%;
+    width: 1183px;
+    margin-left: 18%;
+    margin-top: 0.5%;}
+    #txtsRodape ul li{padding-right: 3em;
+    line-height: 30px;
+    }
+    #txtsRodape ul li strong{display: inline-block;
+    color: white;
+    margin-bottom: 15px;
+    padding-right: 15px;
+    font-size: 1.125em;
+    color: #fff;}
+    #txtsRodape ul li a {display: inline-block;
+    color: #bdbdbd;}
+    
+#txtsRodape2 {position: absolute;
+    left: 60vh;
+    bottom: 35.5vh;}
+    #txtsRodape2 li{padding-right: 3em;
+        line-height: 30px;
+        }
+    #txtsRodape2 li strong{display: inline-block;
+        color: white;
+        margin-bottom: 15px;
+        padding-right: 15px;
+        font-size: 1.125em;
+        color: #fff;}
+    #txtsRodape2 li a {display: inline-block;
+        color: #bdbdbd;}
+
+#txtsRodape3 {position: absolute;
+            left: 94.5vh;
+            bottom: 25.75vh;}
+    #txtsRodape3 li{padding-right: 3em;
+                line-height: 30px;
+                }
+    #txtsRodape3 li strong{display: inline-block;
+                color: white;
+                margin-bottom: 15px;
+                padding-right: 15px;
+                font-size: 1.125em;
+                color: #fff;}
+    #txtsRodape3 li a {display: inline-block;
+                color: #bdbdbd;}
+
+#txtsRodape4 {margin-top: -46.5vh;
+margin-left: 121.5vh;}
+#txtsRodape4 p strong {color: white;}
+#txtsRodape4 p { line-height: 26px;
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: -1;
+font-size: 16px;
+color: #9E9E9E;}
+#buttonR {display: block;
+    width: 58%;
+    margin: 1.25em 0;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .875em;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 8px;
+    background: #40aa0b;}
+
+#Rlogo img{margin-left: 17.5%;
+margin-top: 4%;}
+#Rlogo p{margin-left: 17.5%;
+    margin-top: .9%;
+    font-size: 12px;
+    color: white;}
+
+#socialMedia {padding: 25px;
+width: 384.67px;
+height: 176px;
+position: absolute;
+    top: 283px;
+    left: 76vh;}
+#socialMedia ul{display: flex;
+flex-direction: row;
+justify-content: space-between;}
+#socialMedia ul li a {display: inline-block;}
+.titleR {font-size: 16px;
+color: white;}
+.face {color: #424242;}
+.face a {
+    background: #4460a0;
+    width: 68.41px;
+    height: 44px;
+    border-radius: 8px;
+    margin-top: 22px;
+    color: #424242;
+    text-align: center;
+    font-size: 11px;
+    }
+.face a img{padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+text-align: center;
+}
+.ig {
+    color: #424242;}
+.ig a {
+    background: white;
+    width: 68.41px;
+    height: 44px;
+    border-radius: 8px;
+    margin-top: 22px;
+    color: #424242;
+    text-align: center;
+    font-size: 11px;
+    }
+.ig a img{padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+text-align: center;
+}
+.linkedin {
+    color: #424242;}
+.linkedin a {
+    background: #007ab9;
+    width: 68.41px;
+    height: 44px;
+    border-radius: 8px;
+    margin-top: 22px;
+    color: #424242;
+    text-align: center;
+    font-size: 11px;
+    }
+.linkedin a img{padding-bottom: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 6px;
+text-align: center;
+}
+.tt {
+    color: #424242;}
+.tt a {
+    background: #00AAEC;
+    width: 68.41px;
+    height: 44px;
+    border-radius: 8px;
+    margin-top: 22px;
+    color: #424242;
+    text-align: center;
+    font-size: 11px;
+    }
+.tt a img{padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+text-align: center;
+}
+.tt a p {margin-top: .7vh;}
+#socialMedia2 {position: absolute;
+    top: 283px;
+    left: 123vh;
+    padding: 25px;
+    width: 384.67px;
+    height: 176px;}
+#socialMedia2 ul{display: flex;
+    flex-direction: row;
+    justify-content: space-between;}
+#socialMedia2 ul li a {display: inline-block;}
